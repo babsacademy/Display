@@ -17,7 +17,7 @@ const Home = () => {
       <ul>
         {articles.map((article) => (
           <li key={article.id}>
-            <h2>{article.title}</h2>
+            <h2>- {article.title}</h2>
             <p>{article.content}</p>
             <img src={article.photo} alt={article.title} />
             <p>{article.date}</p>
